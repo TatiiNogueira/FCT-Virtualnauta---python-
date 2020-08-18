@@ -1,3 +1,5 @@
+#Introzuzir a idade e aparece uma mensagem consoante a idade da pessoa
+
 while True:
     x = int(input('Introduza a sua idade: '))
 

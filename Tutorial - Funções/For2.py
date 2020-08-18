@@ -1,4 +1,4 @@
-#Função para acada item
+#Função para cada item
 fun = [abs(x) for x in [-2, -1, 0, 1, 2]]
 
 #Lista ou tubla

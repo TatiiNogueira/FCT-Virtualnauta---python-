@@ -1,3 +1,5 @@
+#Fazer Login no Facebook, buscando as informação do login na base de dados SQL
+
 #Módulos
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

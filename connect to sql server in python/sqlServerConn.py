@@ -1,3 +1,5 @@
+#Ligação à base de dados SQL e intereção com uma tabela
+
 #Depois de feita a instalação no cmd.
 #Imporatamos o pyodc para aqui
 import pyodbc

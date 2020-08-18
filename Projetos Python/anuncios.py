@@ -44,7 +44,7 @@ list_ad = []
 #Indicamos que vamos pegar no número títulos e vamos subtrair 1
 comp = len(vetor_ad_name)-1
 
-#Ciclo for vai zer entre 0 e 39 
+#Ciclo for vai ser entre 0 e 39 
 for i in range (0,comp):
     #Dicionário
     ad = {}

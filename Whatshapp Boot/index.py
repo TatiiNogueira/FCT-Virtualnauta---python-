@@ -1,4 +1,6 @@
-# Módulos
+#Enviar mensagem automática para uma pessoa em específico através do whatshap
+
+#Módulos
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys

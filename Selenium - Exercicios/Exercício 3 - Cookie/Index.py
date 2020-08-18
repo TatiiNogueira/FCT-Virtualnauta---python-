@@ -1,3 +1,5 @@
+#Criação de um Boot para o jogo do Cookie (Cliques na bolacha de forma automática)
+
 #Módulos
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains

@@ -1,3 +1,5 @@
+#Funções dos Ficheiros - Lee, Escrever, Reescrever e Criar novo ficheiro
+
                     #LER ARQUIVOS
 
 #Criamos uma variavel e dentro dessa variável indicamos que

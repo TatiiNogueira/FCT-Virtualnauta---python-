@@ -1,0 +1,50 @@
+Como importar um fichie Excel para SQL
+1 - Abrimos o SQL Server Manager;
+2 - Clicamos com o botão direito na base de dados que queremos utilizar.;
+3 - Clicamos em "Tasks" e depois em "Import Data...";
+4 - Clicamos em "Next";
+5 - Em "Data soure" selecionamos "Microsoft Excel";
+6 - Em "Excel file path" clicamos no botão "Browse...", para procurarmos o ficheiro que desejamos importar;
+7 - Indicamos a versão do Excel
+8 - Clicamos em "Next";
+9 - Selecionamos "SQL Server Native Client 11.0";
+10 - Indicamos o "Server name" (Nome do Servidor);
+11 - Indicamos a "Database" (Base de dados) que preetendemos usar;
+12 - Clicamos em "Next";
+13 - Selecionamos a 1ª opção "Copy data from one or more table or views";
+14 - Clicamos em "Next";
+15 - Selecionamos a/as pag/s que queremos do ficheiro Excel;
+16 - Se quisermos ver as informações sobre uma página do Excel Clicamos sobre a folha (Como no passo 15) 
+e clicamos no botão "Edit Mappings" e assim que terminarmos de ver clicamos em "OK" (Este passo NÃO é OBRIGATÓRIO);
+17 - Clicamos em "Next";
+18 - Selecionamos a opção "Run immediately";
+19 - Selecionamos "Next";
+20 - Selecionamos "FINISH";
+21 - Por fim clicamos em "Close";
+22 - Para visualizar os dados da tabela - Executar um dos códigos a seguir:
+O que está à frente de -- é um comentário, o SQL não o Lê/Executa.
+
+--Comando para vizualizar os dados da tabela Excel que foi importada
+
+--Visualizar os dados das 10 primeiras linhas da tabela e das colunas indicadas
+SELECT TOP 10 [Rk], [Player], [Pos], [Age]
+--Base de dados e o nome da tabela
+FROM [Estudos].[dbo].[Sheet1$]
+
+--Visualizar a informação da tabela toda
+SELECT * FROM [Estudos].[dbo].[Sheet1$]
+
+..........................................................................................................................
+
+Como importar uma tabela SQL para um ficheiro Excel
+1 - Abrir um ficheiro Excel (Existente ou novo);
+2 - Clicamos em "Dados";
+3 - Clicamos em "De outras Origens";
+4 - Clicamos em "Do SQL Server";
+5 - Preenchemos as informações;
+6 - Clicamos em "Seguinte";
+7 - Indicamos a Base de Dados e a tabela que queremos importar;
+8 - Clicamos em "Seguinte";
+9 - Clicamos em "Concluir";
+10 - Escolhemos como queremos visualizar os dados importados e onde queremos colocar os dados;
+11 - Por fim clicamos em "Ok";

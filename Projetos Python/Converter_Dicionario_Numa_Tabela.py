@@ -11,3 +11,5 @@ df = pd.DataFrame(Dic)
 
 #Visualizar a tabela
 print(df)
+#Visualizar as duas primeiras linhas da tabela
+print(df.tail(2))

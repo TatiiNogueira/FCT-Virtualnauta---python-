@@ -5,7 +5,7 @@ import pandas as pd
 import sweetviz as sv
 import numpy as np 
 
-#Fciheiro excel
+#Ficheiro excel
 x = pd.read_excel('C:\\Users\\nogue\\Desktop\\Work\\Python\\anuncios.xlsx')
 #Imprimir a tabela/informação do excel
 print(x) 

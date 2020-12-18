@@ -1,0 +1,4 @@
+Curso -> https://www.youtube.com/watch?v=rX2I7OjLqWE
+Link da Base de dados -> https://github.com/Microsoft/sql-server-samples/release/download/adventureworks/AdventureWorks2017.bak
+OU https://drive.google.com/file/d/1LCofjYj-pV1asBLrxtgPDsbqMFRefHW5/view
+Link da Criação da Base de Dados Northwind-> https://raw.githubusercontent.com/Microsoft/sql-server-samples/master/samples/databases/northwind-pubs/instnwnd.sql

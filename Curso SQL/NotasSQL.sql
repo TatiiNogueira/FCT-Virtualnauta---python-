@@ -46,13 +46,13 @@
  /*IN - Significa igual*/
  select * from [Nome_da_Base_De_Dados][Nome_Tabela] where Nome_da_Coluna IN (Valor_1,Valor_2....)
 
- /*% - O que vier a seguir do % não interessa, ou retorna me tudo o que começar por o que eu indiquei
+ /*% - O que vier a seguir do % não interessa, retorna me tudo o que começar por o que eu indiquei
  No exemplo 1 irá retornar tudo o que começar por 'Ar', não me interessa o que vem depois
  No exemplo 2 irá retornar tudo o que tiver no meio 'essa' não me interessa o que vem antes nem o que vem depois
  No exemplo 3 irá retornar tudo o que tiver no meio 'ro', não me interessa o que vem antes, mas depois do 'ro' só pode ter uma letra/numero*/
  select * from [Nome_da_Base_De_Dados][Nome_Tabela] where Nome_da_Coluna like  /*Exemplo1*/ 'Ar%'
-																			   /*Exemplo2*/ '%essa%'
-																			   /*Exemplo3*/ '%ro_'
+									       /*Exemplo2*/ '%essa%'
+									       /*Exemplo3*/ '%ro_'
 
 /*Atribuir nome a uma tabela*/
 /*Inicio do Código*/ AS "Nome_que_queremos_dar_à_Coluna" /*Fim do Código*/

@@ -1,4 +1,5 @@
-#NOTA: Escrevo no campo de busca do google "http://localhost:8080/" + Nome do ficheiro html po exemplo "home.html"
+#NOTA: Só funciona com ficheiros HTML
+#Escrevo no campo de busca do google "http://localhost:8080/" + Nome do ficheiro html po exemplo "home.html"
 #Completo ficaria assim "http://localhost:8080/home.html"
 
 #Módulos

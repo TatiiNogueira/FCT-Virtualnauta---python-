@@ -1,4 +1,4 @@
-#Funções dos Ficheiros - Lee, Escrever, Reescrever e Criar novo ficheiro
+#Funções dos Ficheiros - Ler, Escrever, Reescrever e Criar novo ficheiro
 
                     #LER ARQUIVOS
 

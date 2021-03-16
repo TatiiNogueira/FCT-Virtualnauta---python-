@@ -1,0 +1,2 @@
+Para escrever um comentário tenho de escrever no local onde quero escrever o comentário # e ele comenta deste o # até ao final da linha
+ou escrever no inicio do texto que  ''' e depois escrevo ''' no local onde quero que o comentáio termine

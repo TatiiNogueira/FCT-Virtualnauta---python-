@@ -27,7 +27,7 @@ employees_file.close()
 #Adicionar um novo elemento a um ficheiro no final do ficheiro
 #Cada vez que eu colocar o programa para correr ele irá criar novamente
 #o elemento que eu escrevi
-#employees_file.write(("\nAndreia - Secretaria"))
+#employees_file.write("\nAndreia - Secretaria")
 #employees_file.close()
 
                 #REESCREVER UM FICHEIRO

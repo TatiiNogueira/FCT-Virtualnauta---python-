@@ -2,4 +2,4 @@ Para escrever um comentário tenho de escrever # no local onde quero que o comen
 ou escrever ''' onde quero que o comentário comece e depois escrevo ''' onde quero que o comentáio termine
 
 Class -> Escrever o nome da class com letra maiuscula no inicio
-         Quando o nome é constituido por mais de uma palavra, escrver a inicial da palavra com letra maiuscula, não utilizar o "_" para fazer a separação
+         Quando o nome é constituido por mais de uma palavra, escrever a inicial da palavra com letra maiuscula, não utilizar o "_" para fazer a separação

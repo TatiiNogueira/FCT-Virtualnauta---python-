@@ -1,0 +1,16 @@
+Link -> https://apps.timwhitlock.info/emoji/tables/unicode
+
+Para modificar o código unicode basta substituir o + por 000 e colocar no inio \
+Unicode -> U+1F4A3
+Code -> \U0001F4A3
+
+🚲 - \U0001F6B2
+💣 - \U0001F4A3  
+💝 - \U0001F49D
+🎁 - \U0001F381
+🏀 - \U0001F3C0
+🔋 - \U0001F50B
+🙌 - \U0001F64C
+🚀 - \U0001F680
+🌈 - \U0001F308
+😽 - \U0001F63D

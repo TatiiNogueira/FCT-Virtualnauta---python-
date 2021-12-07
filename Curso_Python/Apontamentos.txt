@@ -1,0 +1,141 @@
+Entrar no ambiene virtual
+Ctr+p -> >python: Select Interprete -> Python 3.8.2 64-bit('Curso_Python')
+
+#####################################################################################################
+import this     -> this é o poema "The Zen of Python" sobre Python feito por "Tim Peters"
+                   Quando coloco o programa a correr ele imprime o Poema
+#####################################################################################################
+PEP8 - Python Enhancement Proposal - São propostas de melhorias para a linguagem Python
+A ideia do PEP8 é que possamos escrever códigos Python de forma Pythtónica(Tem a ver com a formatação do ficheiro)
+REGRAS
+{1} - Utilizar Camel Case para nomes de classes
+
+class Calculadora:
+    pass
+
+class CalculadoraCientifica:
+    pass
+
+{2} - Separar palavras por "_" para nomes de funções
+
+def soma():
+    pass
+
+def soma_dois():
+    pass
+
+numero = 4
+numero_impar = 5
+
+{3} - Utilizar 4 espaços para a identificação, não "TAB"
+
+id 'a' in 'banana':
+    print('item)
+
+{4} - Linhas em  branco
+- Separar funções e definições de classe com duas linhas em branco
+- Metodos dentro de uma classe deve ser separados com uma única linha em branco
+
+{5} - Imports
+- Imports devem ser sempre feitos em linhas separadas
+- Os Imports devem ser colocados no topo do arquivo, logo depois de quaisquer comentários ou docstrings e antes de constantes ou variáveis globais
+
+
+Import ERRADO
+Import sys, os
+
+Import CERTO
+Import sys
+Import os
+
+Não existe  problemas em utilizar
+from types import StringType, ListType
+
+Caso tenha muitos imports de um mesmo pacote, é recomendado fazer
+from types import(
+    StringType,
+    ListType,
+    SetType,
+    OutroType
+)
+
+{6} - Espaços entre espressões e instruçoes
+
+ERRADO
+funcao( algo[ 1 ], { outro: 2 } )
+algo (1)
+dict ['chave'] = lista [indice]
+x              = 1
+y              = 3
+variavel_longa = 5
+
+CERTO
+funcao(algo[1], {outro: 2})
+algo(1)
+dict['chave'] = lista[indice]
+x = 1
+y = 3
+variavel_longa = 5
+
+{7} - Termine sempre uma instruçãao com uma nova linha
+#####################################################################################################
+Utilitários Python para qye auxiliar na programação
+
+dir -> Apresenta todos os atributos/propriedades e funçoes/metodos disponiveis para determinado tipo de dado ou variável
+Escrevemos no terminal Python e depois
+dir(tipo_de_dado/variavel) -> Retorna uma lista de comandos
+
+help -> Apresenta a documentação/como utilizar os atributos/propriedades e funções/métodos disponiveis para determinado tipo de dado ou variável
+help(tipo_de_dado/variavel.comando)
+#####################################################################################################
+Tipo Float,Real e decimal
+
+O separador de casas decimais na programação é o ponto e não a virgula
+
+ERRADO
+valor = 1,44
+
+CERTO 
+valor = 21.44
+
+É POSSIVEL
+valor1, valor2 = 54,231
+O valor 1 correspode a 54
+O valor 1 correspode a 231
+
+Faz a conversão do número para um inteiro, neste caso ficaria 43
+valor = 43.65
+x = int(res)
+print(x)
+#####################################################################################################
+Imprimir um valor várias vezes
+
+variavel = "Hello"
+print(variavel*300)
+#####################################################################################################
+Listas
+
+Remover o último valor da lista e retornar o mesmo
+list = [0,1,2,3,4]
+list.pop()
+
+Remover um elemento em especifico e retornar o mesmo
+list = [5,10,15]
+list.pop(10)
+
+Remover um elemento em especifico
+list = {1,2}
+list.discard(2) -> Se o valor não existir não é retornado nenhum erro
+list.remove(2) -> Se o valor não existir irá retornar o erro KeyError
+#####################################################################################################
+Tuplas
+
+Não é Tupla -> (4)
+É Tupla -> (4,) ou 4, ou ("Carro","Avião")
+#####################################################################################################
+Dicionário
+Método fromkeys
+
+veja = {}.fromkeys('abcdefg','valor')
+Resultado -> {'a': 'valor', 'b': 'valor', 'c': 'valor', 'd': 'valor', 'e': 'valor', 'f': 'valor', 'g': 'valor'}
+#####################################################################################################

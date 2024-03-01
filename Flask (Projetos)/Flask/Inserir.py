@@ -2,10 +2,10 @@
 import pyodbc
 
 #Dados da Base de dados
-server = '195.23.10.76\LAB1'
-database = 'TeslaV2230620'
-username = 'SATESLA'
-password = 'SATESLA123'
+server = ''
+database = ''
+username = ''
+password = ''
 
 #Introduzir os valores na base de dados
 def INSERE(a,b,c,d,e,f,g):

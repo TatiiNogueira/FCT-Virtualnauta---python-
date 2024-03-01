@@ -4,10 +4,10 @@
 import pyodbc
 
 #Dados da Base de dados
-server = '195.23.10.76\LAB1'
-database = 'TESLABETA17122020'
-username = 'SATESLA'
-password = 'SATESLA123'
+server = ''
+database = ''
+username = ''
+password = ''
 
 #Verifica se o username e a password introduzidos são válidos
 def Username_Password(u,p):

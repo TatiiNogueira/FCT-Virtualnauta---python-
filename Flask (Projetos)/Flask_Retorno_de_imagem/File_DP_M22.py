@@ -4,10 +4,10 @@
 import pyodbc
 
 #Dados da Base de dados
-server = '195.23.10.76\LAB1'
-database = 'TESLABETA17122020'
-username = 'SATESLA'
-password = 'SATESLA123'
+server = ''
+database = ''
+username = ''
+password = ''
 
 #Vai buscar o nome do ficheiro DP cujo M22_Emp_NIF(n) e M22_Ano(a) seja igual ao que indicamos
 def getfileDP_M22(n,a):

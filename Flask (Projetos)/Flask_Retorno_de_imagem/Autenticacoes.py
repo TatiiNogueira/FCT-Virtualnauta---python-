@@ -7,10 +7,10 @@
 import pyodbc
 
 #Dados da Base de dados
-server = '195.23.10.76\LAB1'
-database = 'TESLABETA17122020'
-username = 'SATESLA'
-password = 'SATESLA123'
+server = ''
+database = ''
+username = ''
+password = ''
 
 #Ver todos os Emp_NIFs e o seu respetivo Emp_Empresa cujo DONO_NIF é o que foi indicado ou seja o n
 def Autenticacoes(n):

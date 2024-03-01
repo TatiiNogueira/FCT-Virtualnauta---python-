@@ -2,10 +2,10 @@
 import pyodbc
 
 #Dados da Base de dados
-server = '195.23.10.76\LAB1'
-database = 'TESLABETA17122020'
-username = 'SATESLA'
-password = 'SATESLA123'
+server = ''
+database = ''
+username = ''
+password = ''
 
 #Vai buscar o DONO_NIF correspondente ao NIF que nós indicamos
 def Empresa_cliente(n):

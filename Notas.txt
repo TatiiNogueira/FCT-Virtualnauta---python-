@@ -4,7 +4,7 @@ ou escrever ''' onde quero que o comentário comece e depois escrevo ''' onde qu
 As variaveis e nomes de funções devem ser escritas com letra minúscula e separadas por _
 Constantes são variáveis que devem ser escritam em maiúsculo e cujo valor nunca é alterado ao longo do programa
 
-O Python é sensivel a letras maiúsculas e minúsculas, ou seja a variavel sapo r a variavel Sapo são duas variáveis diferentes
+O Python é sensivel a letras maiúsculas e minúsculas, ou seja a variavel sapo e a variavel Sapo são duas variáveis diferentes
 
 ------------------------------------------------------------------------------------------------------------------
 Class -> Escrever o nome da class com letra maiuscula no inicio
@@ -14,7 +14,41 @@ Class -> Escrever o nome da class com letra maiuscula no inicio
 Operadores Aritméticos
 10/2 = 5.0
 Divisão inteira (//) --> Divisão mas retonar o resultado em inteiro, neste caso o resultado será 5
-resultado = 10 // 2
+EX:
+         resultado = 10 // 2
 
 Módulo (%) --> Retornar o resto do resultado da divisão, neste caso será retornado apenas 0, pois é o valor depois da virgula, o resto
-modulo = 10 % 2
+EX:
+         modulo = 10 % 2
+
+------------------------------------------------------------------------------------------------------------------
+Ciclos For
+Quando estamos a criar um ciclo for mas queremos que o código a serguir seja ignorado escrevemos continue, ou seja quando o código chegar ao continue
+irá ignorar o código que viria a seguir e passa para o próximo ciclo
+EX:
+         for i in range(10):
+             if i % 2 == 0:
+                 continue
+             print(i)
+
+------------------------------------------------------------------------------------------------------------------
+Listas
+frutas = ["Morango", "Banana", "Melancia"]
+
+Adicionar um elemento ao final da lista lista
+frutas.append("Pera")
+
+Adicionar um elemento numa posição expecifica da lista, neste caso posicão 1 que irá corresponder ao elemento 2, pois a contagem começa no zero
+frutas.insert(1, "Uva")
+
+Remover um elemento da lista
+frutas.remove("Banana")
+
+Remover um elemento da lista pela posição do elemento
+fruta_removida = frutas.pop(2)
+
+Colar a lista por ordem ascendente, da primeira letra do alfabeto para a última letra do alfabeto
+frutas.sort()
+
+Reverter a ordem da lista, a ordem inicial seria [M,B,U], passa a ser [M,B,U]
+frutas.reverse()

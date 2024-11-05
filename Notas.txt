@@ -1,8 +1,10 @@
 Para escrever um comentário tenho de escrever # no local onde quero que o comentário comece e ele comenta desde o # até ao final da linha
 ou escrever ''' onde quero que o comentário comece e depois escrevo ''' onde quero que o comentário termine
 
+------------------------------------------------------------------------------------------------------------------
 Class -> Escrever o nome da class com letra maiuscula no inicio
          Quando o nome é constituido por mais de uma palavra, escrever a inicial da palavra com letra maiuscula
+------------------------------------------------------------------------------------------------------------------
 
 Operadores Aritméticos
 10/2 = 5.0

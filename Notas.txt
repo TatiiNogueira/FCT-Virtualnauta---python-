@@ -52,3 +52,48 @@ frutas.sort()
 
 Reverter a ordem da lista, a ordem inicial seria [M,B,U], passa a ser [M,B,U]
 frutas.reverse()
+
+------------------------------------------------------------------------------------------------------------------
+Dicionários
+Cada elemnto do dicionário, é composto por uma chave e um valor
+pessoa = {"Nome": "Maria", "Idade": 22, "Pais": "Portugal"}
+
+Obter todas as Chaves do Dicionário
+pessoa.keys()
+Resultado: dict_keys(['Nome', 'Idade', 'Pais'])
+
+Obter todos os Valores do Dicionário
+pessoa.values()
+Resultado: dict_values(['Maria', 22, 'Portugal'])
+
+Adiconar um nome elemento ao Dicionário, é necessário dizer a chave e o valor
+pessoa.update({"Profissao": "Programador"})
+
+------------------------------------------------------------------------------------------------------------------
+Conjuntos(set)
+Para criar um conjunto, utilize chaves ou a função set():
+EXs:
+         frutas = {"maçã", "banana", "laranja"}
+         numeros = set([1, 2, 3, 4, 5])
+
+Criação e operações básicas
+conjunto1 = {1, 2, 3}
+conjunto2 = {3, 4, 5}
+
+Juntar os dois conjuntos
+uniao = conjunto1 | conjunto2
+Resultado: {1, 2, 3, 4, 5}
+
+Valores que se encontram presentes em ambos os conjuntos
+intersecao = conjunto1 & conjunto2
+Resutado: {3}
+
+Valores que estão no conjunto 1 mas não no conjunto 2, existem duas maneiras de fazer
+diferenca = conjunto1 - conjunto2
+diferenca2 = conjunto1.difference(conjunto2)
+Resultado: {1,2}
+
+Valores que só se encotram num dos conjuntos, se estiver em ambos como o caso do 3 não irá ser mostrado, existem duas maneiras de fazer
+diferenca_simetrica = conjunto1 ^ conjunto2
+diferenca_simetrica = conjunto1.symmetric_difference(conjunto2)
+Resultado: {1, 2, 4, 5}

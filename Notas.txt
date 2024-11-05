@@ -97,3 +97,18 @@ Valores que só se encotram num dos conjuntos, se estiver em ambos como o caso d
 diferenca_simetrica = conjunto1 ^ conjunto2
 diferenca_simetrica = conjunto1.symmetric_difference(conjunto2)
 Resultado: {1, 2, 4, 5}
+
+Métodos de conjuntos
+frutas = {"Arroz", "Farinha", "Sopa"}
+
+Adiconar um elemento ao conjunto
+frutas.add("Esparguete")
+
+Remover um elemento do conjunto, mas se o mesmo não existir gera erro
+frutas.remove("Farinha")
+
+Remover um elemento do conjunto, mas se o mesmo não existir não faz nada
+frutas.discard("Carne")
+
+Limpar o conjunto, como o conjunto irá ficar vazio, será retornado set()
+frutas.clear()

@@ -1,6 +1,11 @@
 Para escrever um comentário tenho de escrever # no local onde quero que o comentário comece e ele comenta desde o # até ao final da linha
 ou escrever ''' onde quero que o comentário comece e depois escrevo ''' onde quero que o comentário termine
 
+As variaveis e nomes de funções devem ser escritas com letra minúscula e separadas por _
+Constantes são variáveis que devem ser escritam em maiúsculo e cujo valor nunca é alterado ao longo do programa
+
+O Python é sensivel a letras maiúsculas e minúsculas, ou seja a variavel sapo r a variavel Sapo são duas variáveis diferentes
+
 ------------------------------------------------------------------------------------------------------------------
 Class -> Escrever o nome da class com letra maiuscula no inicio
          Quando o nome é constituido por mais de uma palavra, escrever a inicial da palavra com letra maiuscula
@@ -8,8 +13,8 @@ Class -> Escrever o nome da class com letra maiuscula no inicio
 
 Operadores Aritméticos
 10/2 = 5.0
-Divisão mas retonar o resultado em inteiro, neste caso o resultado será 5
+Divisão inteira (//) --> Divisão mas retonar o resultado em inteiro, neste caso o resultado será 5
 resultado = 10 // 2
 
-Retornar o resto do resultado da divisão, neste caso será retornado apenas 0, pois é o valor depois da virgula, o resto
+Módulo (%) --> Retornar o resto do resultado da divisão, neste caso será retornado apenas 0, pois é o valor depois da virgula, o resto
 modulo = 10 % 2

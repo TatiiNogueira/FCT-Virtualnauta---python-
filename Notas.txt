@@ -10,7 +10,6 @@ O Python é sensivel a letras maiúsculas e minúsculas, ou seja a variavel sapo
 Class -> Escrever o nome da class com letra maiuscula no inicio
          Quando o nome é constituido por mais de uma palavra, escrever a inicial da palavra com letra maiuscula
 ------------------------------------------------------------------------------------------------------------------
-
 Operadores Aritméticos
 10/2 = 5.0
 Divisão inteira (//) --> Divisão mas retonar o resultado em inteiro, neste caso o resultado será 5
@@ -112,3 +111,32 @@ frutas.discard("Carne")
 
 Limpar o conjunto, como o conjunto irá ficar vazio, será retornado set()
 frutas.clear()
+
+------------------------------------------------------------------------------------------------------------------
+Funções
+
+Documentação de Funções
+Args são os Argumentos
+Returns valores retornados
+Os Args e Returns podem ter várias variáveis e só devem ser documentados caso existam, se a função não tiver nenhuma variável,
+não deverá ter a parte de Args e o mesmo se aplica aos Returns
+Dentro da função escrevemos o comentário a seguir
+"""
+Escrevemos o que a função faz
+
+Args:
+         variavel (type): O que representa a variável
+...
+
+Returns:
+         variavel (type): O que retorna a variável
+         OU
+         type: O que retorna
+"""
+
+Funções Lambda -> São funções que não tem nome
+Indicamos uma variavel em seguida fazemos a indicação do lambda e x: significa o que a função irá retornar
+Neste cas a função irá retornar x(Que é o parametro da função) + 3
+EX:
+   sumar = lambda x: x + 3
+         print(sumar(5))

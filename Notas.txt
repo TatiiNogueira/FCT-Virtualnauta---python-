@@ -114,7 +114,6 @@ frutas.clear()
 
 ------------------------------------------------------------------------------------------------------------------
 Funções
-
 Documentação de Funções
 Args são os Argumentos
 Returns valores retornados
@@ -140,3 +139,18 @@ Neste cas a função irá retornar x(Que é o parametro da função) + 3
 EX:
    sumar = lambda x: x + 3
          print(sumar(5))
+
+------------------------------------------------------------------------------------------------------------------
+Exceções Personalisadas
+Tratar de um erro personalisado
+EX:
+         def funcao(condicao):
+             # Código que pode gerar uma exceção personalizada
+             if condicao:
+                 raise Exception("Descrição do erro")
+         
+         #Local onde chamamos a função e definimos que se der um erro tratado irá mostrar/imprimir o mesmo
+         try:
+             funcao(True)
+         except Exception as e:
+             print(f"Erro: {str(e)}")
